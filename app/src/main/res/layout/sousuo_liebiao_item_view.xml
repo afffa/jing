@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sousuo_liebiao_item_view_iv"
+        android:layout_width="200px"
+        android:layout_height="200px" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sousuo_liebiao_item_view_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/sousuo_liebiao_item_view_tv2"
+            android:layout_width="wrap_content"
+            android:textColor="#FF0000"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

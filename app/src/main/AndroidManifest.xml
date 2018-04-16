@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ss.com.lbs.jingdong01">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".activity.MApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Main2Activity"/>
+        <activity android:name=".activity.DengLu_ZhuCe"/>
+        <activity android:name=".activity.XiangQingxinxi"/>
+        <activity android:name=".activity.FenLei_LieBiao_Activity"/>
+        <activity android:name=".activity.QueRenDingDan_Activity"/>
+        <activity android:name=".activity.ShouYinTai"/>
+        <activity android:name=".activity.XiaoXiJieMian"/>
+        <activity android:name=".activity.DingDanliebiao_Activity"/>
+        <activity android:name=".activity.BianJiDiZhi_activity"/>
+    </application>
+
+</manifest>

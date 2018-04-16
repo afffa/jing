@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/faxiang_sao_tu"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/sao" />
+
+        <EditText
+            android:id="@+id/faxiang_sou_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:id="@+id/faxiang_suosou_tu"
+            android:src="@drawable/search_icon2"/>
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:id="@+id/faxiang_qietu"
+            android:src="@drawable/qietu_1"/>
+
+        <ImageView
+            android:id="@+id/faxiang_xiaoxi_tu"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/sxiaoxi" />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/faxian_sousuo_recy"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

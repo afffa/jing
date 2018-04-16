@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:id="@+id/miaosha_iv"/>
+    <TextView
+        android:layout_width="230px"
+        android:layout_height="wrap_content"
+        android:id="@+id/miaosha_tv1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/miaosha_tv2"/>
+
+</LinearLayout>
